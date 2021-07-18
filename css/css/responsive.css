@@ -1,0 +1,128 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .manu {
+    display: none;
+  }
+  .zoom img {
+    height: 620px !important;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .manu {
+    display: none;
+  }
+  .logo {
+    font-size: 31px;
+    padding: 11px 11px;
+  }
+  .search-wrap {
+    height: 37px;
+    padding: 0px 10px;
+    top: 15px;
+  }
+  .icon {
+    padding: 0px 5px;
+  }
+  .icon i {
+    font-size: 20px;
+    top: 5px;
+    position: relative;
+  }
+  .icon-content h6 {
+    top: 22px;
+    font-size: 12px;
+  }
+  .icon-content p {
+    top: 7px;
+    font-size: 8px;
+  }
+  .testomonial-icon {
+    font-size: 35px;
+  }
+  .testomonial-footer h3 {
+    margin-top: 45px;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    display: none;
+  }
+  .quantity input {
+    width: 45px;
+  }
+  .atc {
+    font-size: 15px;
+  }
+  .testomonial-icon {
+    font-size: 51px;
+  }
+  .testomonial-footer h3 {
+    margin-top: 40px;
+  }
+  .footer-btn input {
+    width: 65%;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+  .tm-wrap {
+    display: none;
+  }
+  .filter {
+    padding: 0px 58px;
+    margin-left: -15px;
+  }
+  .flip-box .cart {
+    width: 100%;
+  }
+  .atc {
+    font-size: 15px;
+  }
+  .testomonial-icon {
+    font-size: 39px;
+  }
+  .testomonial-footer h3 {
+    margin-top: 35px;
+  }
+  .bf::before {
+    margin: 5px;
+  }
+  .bf-wra {
+    padding: 9px;
+  }
+}
+/* small mobile :320px. */
+@media only screen and (min-width: 220px) and (max-width: 480px) {
+  .container {
+    width: 300px;
+  }
+  .header {
+    display: none;
+  }
+  .tm-wrap {
+    display: none;
+  }
+  .flip-box .cart {
+    width: 100%;
+  }
+  .testomonial-icon {
+    font-size: 31px;
+  }
+  .testomonial-footer h3 {
+    margin-top: 27px;
+  }
+  .bf::before {
+    margin: 5px;
+  }
+  .bf-wra {
+    padding: 9px;
+  }
+}
